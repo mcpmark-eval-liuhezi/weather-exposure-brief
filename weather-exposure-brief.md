@@ -1,100 +1,126 @@
-# Weather-Exposure Brief — Field Network On-Call Handoff
+# Weather Exposure Brief — Field Relay Sites On-Call Handoff
 
-**Prepared:** Wed, Nov 11, 2026 (pre Handoff Meeting)
-**Runbook sites:** us-east (Ashburn, VA), us-central (Dallas, TX), us-south (Miami, FL), us-west (Redmond, WA)
+**Prepared:** 2026-11-11 (local observations ~11:00 AM ET / 8:30 AM PT, fresh run)
+**Prepared for:** On-call handoff meeting — audit binder
+**Scope:** us-east (Ashburn, VA), us-central (Dallas, TX), us-south (Miami, FL), us-west (Redmond, WA)
 **Upstream national weather source:** weather.gov (NOAA National Weather Service)
 **Dashboard network operator:** AS13335 (Cloudflare, Inc.)
 
 ---
 
-## 1. Site us-east — Ashburn, Virginia (39.0437,-77.4875) — STATUS: CLEAR
+## Site 1 — us-east (Ashburn, VA) [39.0437, -77.4875] — STATUS: CLEAR
 
-- **Alert status:** No active weather alerts, watches, or warnings for Virginia (state-wide check: clean).
-- **Current conditions** (obs station KJYO, 5.0 mi away, observed 2:55 AM local 11/11/2026):
-  - Temperature: 44.6°F (7.0°C)
-  - Conditions: Clear
-  - Humidity: 93%
-  - Wind: 0 mph from 0°
-  - Pressure: 30.02 inHg
-  - Visibility: 10.0 miles
-- **Precipitation risk (next 24 hrs):** Minimal. Sky turns mostly cloudy after 6 PM; rain chance peaks at 10% around 1–2 AM. Dry overnight into tomorrow morning.
-- **Nearest observation station:** **KJYO** — Leesburg / Godfrey, elevation 390 ft, 5.0 miles from site coordinates.
-- **Multi-day outlook:** Sunny/high near 67°F on Veterans Day with light west wind (1–7 mph). Wednesday night: 20% chance of rain after 4 AM. Thursday: chance of rain, high 64°F, 50% precip chance, W 2–18 mph gusting to 24. Friday: 25–30% chance of showers early morning then mostly sunny, high 51°F. Sunny and dry through the weekend (1–2% precip). Cold stable pattern.
+**Alert status: CLEAR** (no active alerts, watches, warnings, or advisories for VA — state-wide check clean)
 
----
+**Current observed conditions** (Station KJYO, observed 11:55 AM local, 35 min old):
+- Temperature: 64.4°F (18.0°C)
+- Conditions: Clear
+- Humidity: 49%
+- Wind: 37 mph from 160° (S)
+- Pressure: 29.95 inHg
+- Visibility: 10.0 miles
 
-## 2. Site us-central — Dallas, Texas (32.7767,-96.7970) — STATUS: WATCH
+**24-hour precipitation outlook:** Dry and clear through tonight. Sunny/mostly sunny through 6 PM (0–2% rain). Overnight lows to mid-40s; chance of light rain典Rolling to 50% by 7–11 AM Thursday (slight-to-chance light rain). No high risk of standing water or weather-related site exposure.
 
-- **Alert status:** WATCH — Texas has 5 active alerts (Dense Fog Advisory for Southern Lea/Scurry counties through 11 AM; Flood Warnings for Val Verde County Devils River x2 and Llano County Llano River; Flood Advisory for Brooks County Los Olmos Creek). None are in the Dallas metro area, but state-level flag = WATCH.
-- **Current conditions** (obs station KDAL, 6.0 mi away, observed 2:05 AM local 11/11/2026):
-  - Temperature: 64.4°F (18.0°C)
-  - Conditions: Clear
-  - Humidity: 83%
-  - Wind: 17 mph from 230° (SW)
-  - Pressure: 30.09 inHg
-  - Visibility: 10.0 miles
-- **Precipitation risk (next 24 hrs):** Very low. Patchy fog before 9 AM (1–2%), then sunny all day, high near 80°F. Clear overnight into tomorrow (61–62°F).
-- **Nearest observation station:** **KDAL** — Dallas Love Field, elevation 476 ft, 6.0 miles from site coordinates.
-- **Multi-day outlook:** Patchy fog then sunny — high 80°F, 1–2% precip through Saturday (Sat evening: 20–24% slight chance showers after midnight). Sunny, high 76°F Thursday. Sunny 71°F Friday. Weekend mostly sunny (70°F, 2%). Heads-up: **Showers and thunderstorms likely Sunday (70% precip, high 62°F) — plan staffing around Sunday for this region.**
+**Nearest observation station:** **KJYO** — Leesburg / Godfrey, 5.0 mi from site, elev 390 ft.
 
 ---
 
-## 3. Site us-south — Miami, Florida (25.7617,-80.1918) — STATUS: WATCH
+## Site 2 — us-central (Dallas, TX) [32.7767, -96.7970] — STATUS: WATCH
 
-- **Alert status:** WATCH — Florida has 7 active alerts (Flood Warnings on the St. Johns River in Seminole/Brevard/Lake/Volusia counties, Peace River in DeSoto County, Monroe Upper Keys Coastal Flood Statement). None local to Miami-Dade, but state-level flag = WATCH.
-- **Current conditions** (obs station KMIA, 8.3 mi away, observed 3:00 AM local 11/11/2026):
-  - Temperature: 75.2°F (24.0°C), feels like 76.6°F
-  - Conditions: Mostly Clear
-  - Humidity: 89%
-  - Wind: 0 mph from 0°
-  - Pressure: 30.03 inHg
-  - Visibility: 10.0 miles
-- **Precipitation risk (next 24 hrs):** Slight and building. Mostly cloudy 4–10% through late morning, then **slight chance of showers/thunderstorms 3–5 PM peaking at 28% around 5 PM**, easing to 5–12% overnight. Tropical-adjacent moisture there.
-- **Nearest observation station:** **KMIA** — Miami International Airport, elevation 10 ft, 8.3 miles from site coordinates.
-- **Multi-day outlook:** Mostly sunny, high near 84°F with 28–30% chance of a slight shower/T-storm chance (3–5 PM). Wed night 20–23% chance of showers. Thu night 10%. **Tropical pattern continues: Mon 80°F with 27–40% chance of showers/storms, rising to 48% Tue.**
+**Alert status: WATCH** — Texas has 2 active alerts:
+1. **Flood Warning (Severe/Immediate)** — Val Verde County. Devils River at Bakers Crossing; minor flooding occurring, forecast to fall below flood stage late this morning (expires 9:45 PM today). No direct impact to Dallas County.
+2. **Flood Advisory (Minor/Expected)** — Brooks County. Los Olmos Creek near Falfurrias; minor lowland flooding, crest ~6.7 ft (flood stage 11.0 ft), expected to rise to crest tomorrow morning (expires 2:00 PM today).
 
----
+**Current observed conditions** (Station KDAL, observed 11:05 AM local, 25 min old):
+- Temperature: 73.4°F (23.0°C), feels like 73.3°F
+- Conditions: Clear
+- Humidity: 61%
+- Wind: 0 mph
+- Pressure: 30.11 inHg
+- Visibility: 10.0 miles
 
-## 4. Site us-west — Redmond, Washington (47.6742,-122.1215) — STATUS: WATCH
+**24-hour precipitation outlook:** Dry and sunny. High near 80°F Wednesday, clear overnight (low ~54°F), sunny Thursday (high 77°F), sunny Friday (high 71°F). No precipitation in the hourly forecast through Thursday morning.
 
-- **Alert status:** WATCH — Washington has 10 active alerts (Special Weather Statements for dense fog in the Columbia Gorge/Blue Mountains, Flood Warning for Mason County Skokomish River, High Surf Advisory for the coast, Coastal Flood Advisory for Whatcom/San Juan counties, Wind Advisory for Island/Skagit/Snohomish/Whatcom/Jefferson with gusts to 50 mph). **None are Redmond-local; however state-level flag = WATCH.**
-- **Current conditions** (obs station SEAW1 — Seattle WFO, 6.2 mi away, observed 11:30 PM local 11/10/2026):
-  - Temperature: 54.0°F (12.2°C)
-  - Humidity: 97%
-  - Wind: 7 mph from 209°
-  - Sky: Mostly Cloudy (current obs returns temp/humidity/wind)
-- **Precipitation risk (next 24 hrs):** Very dry. Mostly cloudy 2–6% all day. High 68°F, 6% precip chance.
-- **Nearest observation station:** **SEAW1** — Seattle Weather Forecast Office, elevation 29 ft, 6.2 miles from site coordinates.
-- **Multi-day outlook:** High 68°F (mostly cloudy) today, 6% precip. Thursday 30% chance of light rain morning, cloudy, high 64°F. **Rain returns hard: Friday 78–80% light rain, Saturday 51–92% chance of rain through Sunday (92% Sat night/Sun), then tapering to 19% by Tuesday.** This is the highest-impact site for the next few days — budget for wet-weather gear and possible outages in the Redmond/Snohomish area.
+**Multi-day outlook (TX):** Sunny Wednesday (high 80), clear tonight (low 54), sunny Thursday (high 77), mostly clear Thursday night (low 51), sunny Friday (high 71). Drier pattern ahead; flood alerts are riverine and do not affect the Dallas site.
+
+**Nearest observation station:** **KDAL** — Dallas Love Field, 6.0 mi from site, elev 476 ft.
 
 ---
 
-## 5. Data Provenance (Audit Binder)
+## Site 3 — us-south (Miami, FL) [25.7617, -80.1918] — STATUS: WATCH
 
-### weather.gov — WHOIS (registry lookup via whois.nic.gov)
+**Alert status: WATCH** — Florida has 6 active alerts, all Flood Warnings (Severe/Immediate) along the St. Johns River basin (DeSoto, Lake, Volusia, Brevard, Seminole counties) plus additional riverine coverage. None cover Miami-Dade; impacts are to low-lying riverine/floodplain areas (St. Johns River at Deland/Astor/Cocoa/above Lake Harney/Sanford).
+
+**Current observed conditions** (Station KMIA, observed 11:53 AM local, 37 min old):
+- Temperature: 84.0°F (28.9°C), heat index 89.0°F
+- Conditions: Mostly cloudy
+- Humidity: 65%
+- Wind: 37 mph from 140° (SE)
+- Pressure: 30.03 inHg
+- Visibility: 10.0 miles
+
+**24-hour precipitation outlook:** Mostly sunny early (6% rain), slight chance of rain showers/thunderstorms mid-afternoon (28% chance at 5 PM), easing to 4–5% by late evening. Overnight mostly cloudy, low 70s.
+
+**Multi-day outlook (FL):** Mostly sunny and warm (highs 79–84°F, lows 74–77°F) through the period. Flood warnings on the St. Johns River remain in effect through Sunday morning; no tropical system or coastal impact expected for the Miami site in the 3-day window.
+
+**Nearest observation station:** **KMIA** — Miami International Airport, 8.3 mi from site, elev 10 ft.
+
+---
+
+## Site 4 — us-west (Redmond, WA) [47.6742, -122.1215] — STATUS: WATCH
+
+**Alert status: WATCH** — Washington has 9 active alerts:
+1. Wind Advisory (Moderate) — South winds 20–30 mph, gusts to 45–50 mph, until 4 PM PST today (San Juan, Whatcom, Skagit, Snohomish, Island, Grays Harbor, NW coast zones).
+2. Dense Fog Advisory (Moderate) — Yakima/Kittitas valleys and Blue Mountains foothills (visibility ≤½ mile on I-82).
+3. Special Weather Statement (Moderate) — Patchy dense fog in eastern Columbia River Gorge.
+4. Flood Warning (Severe) — Mason County, Skokomish River at Potlatch; moderate flooding near record crest; road inundation of Skokomish Valley roads and Hwy 106 (until this afternoon).
+5. Coastal Flood Advisory (Minor) — San Juan and Whatcom lowlands (minor tidal flooding, isolated road closures).
+6. High Surf Advisory (Minor) — Northern WA coast and Grays Harbor coast (large breaking waves, beach debris).
+
+**Current observed conditions** (Station SEAW1, observed 8:30 AM local, 1h old):
+- Temperature: 52.0°F (11.1°C)
+- Humidity: 99%
+- Wind: 11 mph from 13° (NNE)
+- Pressure: 29.90 inHg
+
+**24-hour precipitation outlook:** Mostly cloudy, rain chance low all day (2–6%). High near 68°F Wednesday, mostly cloudy tonight (low 51), Thursday chance of light rain morning (30%, high 64), Friday rain (80%, high 63). Overnight/early Thursday: slight chance light rain 7–11 AM (16% at 7 AM).
+
+**Multi-day outlook (WA):** Wednesday mostly cloudy, high 68 (6% precip). Tonight mostly cloudy, low 51. Thursday chance of rain morning (30%), high 64. Friday rain likely (80%), high 63, light rain continuing Friday night (78%). Wind advisory and fog advisories expire this afternoon; residual coastal flood/high-surf impacts through midday.
+
+**Nearest observation station:** **SEAW1** — Seattle Weather Forecast Office, 6.2 mi from site, elev 29 ft.
+
+---
+
+## Data Provenance (Audit Binder)
+
+### weather.gov (upstream national weather source) — WHOIS via whois.nic.gov
 - **Domain Name:** weather.gov
-- **Registrar:** get.gov (Registrar IANA ID 8888888; Registrar URL https://get.gov)
-- **Registrar WHOIS Server:** whois.nic.gov
+- **Registrar:** get.gov (Registrar IANA ID: 8888888); Registrar WHOIS Server: whois.nic.gov; Registrar URL: https://get.gov
+- **Registered Operator (Registrant Organization):** Department of Commerce, Silver Spring, MD, US. Security contact: security@noaa.gov
 - **Domain Status:** serverTransferProhibited (https://icann.org/epp#serverTransferProhibited)
-- **Name Servers:** a1-97.akam.net, a11-66.akam.net, a18-67.akam.net, a26-64.akam.net, a6-65.akam.net, a7-66.akam.net (Akamai DNS)
+- **Name Servers:** a1-97.akam.net, a11-66.akam.net, a18-67.akam.net, a26-64.akam.net, a6-65.akam.net, a7-66.akam.net (Akamai CDN)
+- **Creation Date:** 1999-04-30T21:06:20Z
+- **Updated Date:** 2026-10-01T11:30:29Z
+- **Expiry Date:** 2027-08-27T15:55:27Z
 - **DNSSEC:** signedDelegation
-- **Created:** 1999-04-30T21:06:20Z | **Updated:** 2026-10-01T11:30:29Z | **Expires:** 2027-08-27T15:55:27Z
-- **Registrant:** Department of Commerce, Silver Spring, MD, US (NOAA operator of the national weather service)
-- **Registry Security contact:** security@noaa.gov
+- WHOIS database last update: 2026-11-11T17:30:38Z
 
-### AS13335 — WHOIS (ARIN lookup)
+### AS13335 (dashboard network operator) — WHOIS via ARIN
 - **ASNumber:** 13335 | **ASName:** CLOUDFLARENET | **ASHandle:** AS13335
-- **Registered:** 2010-07-14 (record updated 2017-02-17)
-- **Operator (OrgName):** **Cloudflare, Inc.** (OrgId: CLOUD14, 101 Townsend Street, San Francisco, CA 94107, US)
-- **NOC:** Cloudflare-NOC, +1-650-319-8930, noc@cloudflare.com
-- **Abuse:** abuse@cloudflare.com (reporting via https://www.cloudflare.com/abuse)
+- **ASN RegDate:** 2010-07-14; **ASN Updated:** 2017-02-17
+- **Registered Operator (OrgName):** Cloudflare, Inc. (OrgId: CLOUD14, 101 Townsend Street, San Francisco, CA 94107, US)
+- **Organization RegDate:** 2010-07-09; **Organization Updated:** 2024-11-25
+- **NOC:** Cloudflare-NOC, +1-650-319-8930, noc@cloudflare.com (ARIN); abuse@cloudflare.com; rir@cloudflare.com
+- **Abuse:** abuse@cloudflare.com ( reporting via https://www.cloudflare.com/abuse )
 - **Tech/Admin:** rir@cloudflare.com, +1-650-319-8930
-- **Ref:** https://rdap.arin.net/registry/autnum/13335
+- **RDAP ref:** https://rdap.arin.net/registry/autnum/13335 (ARIN WHOIS)
 
 ---
 
-## 6. Handoff Notes
-- ** us-east (VA):** CLEAR. Dry, sunny, cold trend. Nothing from weather side.
-- ** us-central (TX):** WATCH (state alerts, not local). Moody wind 17 mph SW; fog dies by 9 AM; sunny day ahead; pack thunderstorms Sunday in TX.
-- ** us-south (FL):** WATCH (state alerts, not local). Tropical moisture; showers/storms possible late afternoon; storm chances Mon/Tue.
-- ** us-west (WA):** WATCH (state alerts incl. coastal flood + wind). Driest right now but wet pattern moving in Thu–Sat (80%+ rain Fri/Sun); plan accordingly.
+## Handoff Notes
+- **us-east (VA):** CLEAR — no alerts. Dry, windy (S 37 mph now), clear tonight, light rain chance Thursday morning.
+- **us-central (TX):** WATCH — 2 river flood alerts in Val Verde and Brooks counties; Dallas site itself dry and sunny. No direct impact.
+- **us-south (FL):** WATCH — 6 St. Johns River flood warnings countywide; Miami site dry and warm with only trace shower chances. Monitor river levels if field work near waterways.
+- **us-west (WA):** WATCH — active wind, fog, coastal flood, high-surf, and one river flood alert; winds/fog advisories expire this afternoon. Residual coastal/tide and surf risk through midday.
+- All readings sourced from NWS stations: KJYO, KDAL, KMIA, SEAW1 (see per-site entries).
